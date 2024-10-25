@@ -1,5 +1,4 @@
-import pkg from 'jsonwebtoken';
-const { verify } = pkg;
+import { verify } from 'jsonwebtoken';
 import { UNAUTHORIZED } from '../constants/httpStatus.js';
 
 export default (req, res, next) => {
